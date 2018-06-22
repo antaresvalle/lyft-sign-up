@@ -17,15 +17,14 @@ function validateForm() {
 	return isValid;
 }
 
-function resetFields(){
-	$('.form-field').each(function() {
-  	$(this).val('');
+// function resetFields(){
+// 	$('.form-field').each(function() {
+//   	$(this).val('');
   	
-  });
-}
+//   });
+// }
 
   
-
 $('#conditionsCheck').click(function (evt) {
 	console.log('validadndo de nuevo');
 	validateForm();
@@ -37,7 +36,7 @@ console.log(validateForm());
 
 
 $('#btn-next-phone').click(function (evt){
-	resetFields();
+	// resetFields();
 	validateForm()
 	window.location.href='success.html';
 });
