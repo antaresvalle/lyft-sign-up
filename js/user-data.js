@@ -17,12 +17,12 @@ function validateForm() {
 	return isValid;
 }
 
-// function resetFields(){
-// 	$('.form-field').each(function() {
-//   	$(this).val('');
+function resetFields(){
+	$('.form-field').each(function() {
+  	$(this).val('');
   	
-//   });
-// }
+  });
+}
 
   
 
@@ -37,7 +37,7 @@ console.log(validateForm());
 
 
 $('#btn-next-phone').click(function (evt){
-	// resetFields();
+	resetFields();
 	validateForm()
 	window.location.href='success.html';
 });
