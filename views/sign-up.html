@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lyft</title>
+	<link rel="stylesheet" type="text/css" href="../css/assets/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<title>Sign-up</title>
+</head>
+<body>
+	<header class="container">
+		<div class="row">
+			<div class="col-2 regresar">
+				<i class="fas fa-angle-left" id="return"></i>
+			</div>
+			<div class="col-10">
+				<h5>Sign Up</h5>
+				<span>Join now for free ride credit</span>
+			</div>
+		</div>
+		<hr>
+	</header>
+
+	<main class="container">
+		<form>
+			<div class="form-row">
+				<div class="col-4">
+					<select class="custom-select mr-sm-2" id="selectCountry">
+						<option value='0' selected>Pais</option>
+						<option value="mexico">Mexico</option>
+						<option value="venezuela">Venezuela</option>
+						<option value="usa">USA</option>
+					</select>
+				</div>
+				<div class="col-8">
+					<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<div class="input-group-text">52</div>
+						</div>
+						<input type="number" class="form-control" id="phone" placeholder="phone">
+						<small id="passwordHelpInline" class="text-muted">
+							Must be 10 numbers long.
+						</small>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<span>We'll send text to verify your phone</span>
+				</div>
+			</div>
+			<div class="row button-next-row">
+				<div class="col-12">
+					<button class="btn" id="btn-next-phone" type="button" >Next</button>
+				</div>
+			</div>
+		</form>
+	</main>
+	<script src="../js/assets/jquery-3.3.1.js"></script>
+	<script src="../js/assets/bootstrap.min.js"></script>
+	<script src="../js/app.js"></script>
+	<script src="../js/sign-up.js"></script>
+</body>
+</html>

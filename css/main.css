@@ -1,0 +1,80 @@
+body{
+	height: 100vh;
+}
+
+#splash{
+	background-image: url(../assets/images/lyft-splash.jpg);
+	background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.signup-view {
+    background-image: url(../assets/images/index-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+
+.logo {
+	max-width: 20%;
+}
+
+.row.logo-presentation {
+    padding: 7rem 0;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 2rem;
+}
+
+button.btn.btn-outline-secondary.btn.content{
+	border-color: white;
+	color: white;
+	text-transform: uppercase;
+}
+
+.buttons {
+   	text-align: center;
+}
+
+.row.button-next-row {
+    padding: 10rem 0;
+}
+
+header.container {
+    text-align: center;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+i.fas.fa-angle-left {
+	font-size: 2rem;
+	color: #f10087;
+}
+
+.regresar {
+	padding: 1rem 0;
+}
+
+button#btn-next-phone {
+    background-color: #f10087;
+    color: white;
+    padding: 3% 45%;
+}
+
+a.btn.btn-outline-secondary.btn.success {
+    color: white;
+    border-color: white;
+}
+
+
+
+

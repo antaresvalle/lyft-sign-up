@@ -1,0 +1,1 @@
+swal("Registro exitoso", "Haz concluido el registro exitosamente", "success");
