@@ -49,13 +49,29 @@ form div.row {
     padding-bottom: 19rem;
 }
 
+.form-row {
+    margin-bottom: 1rem;
+}
 
 .row.button-next-row {
     padding-top: 2rem;
 }
 
+.row.button-next-row.sign-up {
+    padding-top: 2.2rem;
+}
+
+.row.button-next-row.verify {
+    padding-top: 1rem;
+}
+
+.row.button-next-row.final {
+    padding-top: 19.5rem;
+}
+
 header.container {
     text-align: center;
+    padding-top: 1rem;
 }
 
 .col-12 {
